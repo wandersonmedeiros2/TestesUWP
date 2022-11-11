@@ -1,0 +1,1 @@
+D:\projetos\git\TestesUWP\AlarmApp\AppAlarmTest\AppAlarmTest.csproj;x86
