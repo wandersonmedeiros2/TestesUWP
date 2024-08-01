@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+/.vs
+/NamedPipeWithUWP.AppServer/bin/Debug/net8.0
+/NamedPipeWithUWP.AppServer/obj
+/NamedPipeWithUWP.NetFrameworkClient/bin/Debug
+/NamedPipeWithUWP.NetFrameworkClient/obj/Debug
+/NamedPipeWithUWP.UWPClient/bin/x64/Debug
+/NamedPipeWithUWP.UWPClient/obj/x64/Debug
+/NamedPipeWithUWP.UWPClient/obj
