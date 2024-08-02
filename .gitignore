@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/WindowsMessageWithConsoleApp/.vs
+/WindowsMessageWithConsoleApp/WindowsMessageWithConsoleApp/bin/Debug
+/WindowsMessageWithConsoleApp/WindowsMessageWithConsoleApp/obj
+/WindowsMessageWithDotNET/.vs/WindowsMessageWithDotNET
+/WindowsMessageWithDotNET/ConsoleApp/bin/Debug
+/WindowsMessageWithDotNET/ConsoleApp/obj
+/WindowsMessageWithDotNET/ConsoleApplication1/Debug
+/WindowsMessageWithDotNET/ConsoleApplication1/x64/Debug
+/WindowsMessageWithDotNET/Debug
+/WindowsMessageWithDotNET/x64/Debug
