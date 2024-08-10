@@ -12,3 +12,9 @@
 /WindowsMessageWithDotNET/ConsoleApplication1/x64/Debug
 /WindowsMessageWithDotNET/Debug
 /WindowsMessageWithDotNET/x64/Debug
+/.vs
+/WindowsDrivers/ListAllDeviceInterface/.vs
+/WindowsDrivers/ListAllDeviceInterface/ConsoleCpp/x64/Debug
+/WindowsDrivers/ListAllDeviceInterface/WinFormsApp1/bin
+/WindowsDrivers/ListAllDeviceInterface/WinFormsApp1/obj
+/WindowsDrivers/ListAllDeviceInterface/x64/Debug
