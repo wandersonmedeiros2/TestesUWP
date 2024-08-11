@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace WinFormsApp1.NativeWin32
+﻿namespace WinFormsApp1.NativeWin32
 {
     public enum DeviceNotificationFlags : int    {
         DEVICE_NOTIFY_WINDOW_HANDLE = 0x00000000, //O parâmetro hRecipient é um identificador de janela. 

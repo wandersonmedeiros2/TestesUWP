@@ -8,6 +8,8 @@
 #pragma comment(lib, "Cfgmgr32.lib")
 
 //https://learn.microsoft.com/en-us/windows/win32/api/cfgmgr32/nf-cfgmgr32-cm_get_device_interface_lista
+// \\?\IDE#CdRomASUS_DRW-24F1MT___b_____________________2.00____#5&3441e1e&0&1.1.0#{53f5630d-b6bf-11d0-94f2-00a0c91efb8b}
+
 
 int main()
 {
