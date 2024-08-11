@@ -10,6 +10,7 @@ namespace WinFormsApp1.Base
     {
         private const ulong CM_GET_DEVICE_INTERFACE_LIST_ALL_DEVICES = 0x00000001;
         private const int CR_SUCCESS = 0x00000000;
+        private const int OPEN_EXISTING = 3;
         private Dictionary<nint, nint> _Handles = new Dictionary<nint, nint>();
 
         public void RegisterListernHandle(nint handle, Guid deviceInterfaceGuid)
@@ -27,7 +28,14 @@ namespace WinFormsApp1.Base
 
         private nint GetHandleDevice(string devicePath)
         {
-            throw new NotImplementedException();
+            var handle = NativeApi.CreateFile(devicePath, (long)GenericRights.GENERIC_READ, 0, 0, OPEN_EXISTING, 0, 0);
+
+            if(handle.Equals(0xffffffffffffffff) || handle.Equals(-1))
+            {
+                throw new Exception($"Erro ao abrir driver : GetLastWin32Error - {Marshal.GetLastWin32Error()} | GetLastSystemError - {Marshal.GetLastSystemError()} | GetHRForLastWin32Error - {Marshal.GetHRForLastWin32Error()}");
+            }
+
+            return handle;
         }
 
         private string GetDevicePathByGuid(Guid deviceInterfaceGuid)

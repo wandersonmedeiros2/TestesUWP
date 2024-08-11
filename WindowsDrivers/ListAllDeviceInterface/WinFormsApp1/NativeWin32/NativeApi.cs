@@ -19,7 +19,7 @@ namespace WinFormsApp1.NativeWin32
         public static extern IntPtr UnregisterDeviceNotification(IntPtr Handle);
 
         [DllImport("Kernel32.dll", CallingConvention = CallingConvention.Winapi, CharSet = CharSet.Unicode, SetLastError = true, EntryPoint = "CreateFile")]
-        public static extern int CreateFile(string lpFileName, int dwDesiredAccess, int dwShareMode, IntPtr lpSecurityAttributes,  int dwCreationDisposition,  int dwFlagsAndAttributes,  IntPtr hTemplateFile);
+        public static extern int CreateFile(string lpFileName, long dwDesiredAccess, int dwShareMode, IntPtr lpSecurityAttributes,  int dwCreationDisposition,  int dwFlagsAndAttributes,  IntPtr hTemplateFile);
 
         [DllImport("Kernel32.dll", CallingConvention = CallingConvention.Winapi, CharSet = CharSet.Unicode, SetLastError = true, EntryPoint = "CreateFile")]
         public static extern int CloseHandle(IntPtr hObject);
